@@ -29,37 +29,6 @@ import java.util.List;
 * */
 
 
-interface Vehical{
-    default int numberOfTyres(){
-        return 0;
-    }
-}
-
-
-//abstract class Vehical{
-//     int numberOfTyres(){
-//         return 0;
-//     }
-//}
-
-
-class Bike implements Vehical{
-
-    @Override
-    public int numberOfTyres() {
-        return 2;
-    }
-}
-
-class Car implements Vehical{
-
-
-    @Override
-    public int numberOfTyres() {
-        return 4;
-    }
-}
-
 
 
 public class Main {
