@@ -44,8 +44,8 @@ public class CollectionsDemo {
         set.add(4);
         System.out.println(set);
 
-        set= new LinkedHashSet<>();
-        set= new TreeSet<>();
+//        set= new LinkedHashSet<>();
+//        set= new TreeSet<>();
 
 
 
